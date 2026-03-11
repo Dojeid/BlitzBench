@@ -1,0 +1,10 @@
+print("Hello World")
+class MyClass:
+    def hlo():
+        print("Class workin")
+    def loop():
+        for i in range(1,12):
+            print(i)
+o=MyClass()
+o.hlo()
+o.loop()
