@@ -1,10 +1,6 @@
-print("Hello World")
-class MyClass:
-    def hlo(self):
-        print("Class workin")
+class Bench:
     def loop(self):
-        for i in range(1,12):
-            print(i)
-o=MyClass()
-o.hlo()
+        for i in range(1,1001):
+	    print(i)
+o=Bench()
 o.loop()
